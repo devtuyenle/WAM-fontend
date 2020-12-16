@@ -1,19 +1,25 @@
 # Installation
 
 ```sh
-$ npm install ssh://git@bitbucket.org/vinasource/wam-frontend.git
+$ npm install git+https://github.com/devtuyenle/WAM-fontend.git
 ```
 
 Install a specific branch
 
 ```sh
-$ npm install ssh://git@bitbucket.org/vinasource/wam-frontend.git#{branch_name}
+$ npm install git+https://github.com/devtuyenle/WAM-fontend.git#{branch_name}
 ```
 
 Install a specific commit
 
 ```sh
-$ npm install ssh://git@bitbucket.org/vinasource/wam-frontend.git#{commit_hash}
+$ npm install git+https://github.com/devtuyenle/WAM-fontend.git#{commit_hash}
+```
+
+Install a specific version
+
+```sh
+$ npm install git+https://github.com/devtuyenle/WAM-fontend.git#{version_name}
 ```
 
 # Usage
@@ -21,7 +27,7 @@ $ npm install ssh://git@bitbucket.org/vinasource/wam-frontend.git#{commit_hash}
 Basic usage
 
 ```jsx
-import { AuthContext, CognitoAuthProvider } from '@devblock/react-auth';
+import { AuthContext, CognitoAuthProvider } from '@wam/react-auth';
 
 const authProvider = new CognitoAuthProvider({});
 

@@ -1,13 +1,13 @@
 {
-  "name": "@devblock/react-auth",
-  "version": "0.0.1",
+  "name": "vue-components",
+  "version": "1.0.6",
   "description": "DevBlock's",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "scripts": {
     "build": "npx tsc"
   },
-  "author": "Tai Bui Huu",
+  "author": "Auth",
   "license": "ISC",
   "devDependencies": {
     "@react-native-community/eslint-config": "^2.0.0",
@@ -24,5 +24,13 @@
   },
   "files": [
     "dist"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/devtuyenle/WAM-fontend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/devtuyenle/WAM-fontend/issues"
+  },
+  "homepage": "https://github.com/devtuyenle/WAM-fontend#readme"
 }

@@ -51,7 +51,7 @@ import {
   BaseAuthProvider,
   SignUpRequest,
   SignUpResponse,
-} from '@devblock/react-auth';
+} from '@wam-fontend/react-auth';
 
 export class CustomAuthProvider extends BaseAuthProvider {
   signUp(request: SignUpRequest): Promise<SignUpResponse> {

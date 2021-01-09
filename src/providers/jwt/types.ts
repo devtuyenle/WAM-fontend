@@ -65,7 +65,7 @@ export class JwtRenewTokenRequest extends RenewTokenRequest {
 }
 
 export class JwtRenewTokenResponse extends RenewTokenResponse {
-  token: string;
+  accessToken: string;
   refreshToken: string;
 }
 

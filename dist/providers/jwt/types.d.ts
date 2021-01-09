@@ -41,7 +41,7 @@ export declare class JwtRenewTokenRequest extends RenewTokenRequest {
     refreshToken: string;
 }
 export declare class JwtRenewTokenResponse extends RenewTokenResponse {
-    token: string;
+    accessToken: string;
     refreshToken: string;
 }
 export interface JwtVerifyAccountRequest extends VerifyAccountRequest {
